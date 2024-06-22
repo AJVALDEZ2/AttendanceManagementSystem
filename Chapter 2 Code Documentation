@@ -1,0 +1,163 @@
+	File name and purpose.
+1.File name: attendancemonitoring
+2. the purpose of this attendancemonitoring is A school Attendance tracking is a user-friendly machine that is simple and very handy to use. 
+This has the potential to report regular attendance of a student inside the school campus. 
+In this way the device can decide the in and out of the students in the school premises. It also provides an simpler and faster view of records of each student. This device can also replace the document, can retrieve data and consider it each time from the database. Attendance tracking machine is a brilliant assist for schools and universities and has made the lives of teachers less difficult whilst tracking the attendance of every students. and if we add a student it auto generate qrcode that you give to them and if they want to attendance they just scan it and it will pop up the time in and time  out of the students.
+
+
+	Author name and contact information.
+
+1. Author: James arnold valdez and eljhun allawan
+2. info email: jamesvaldez700@gamil.com and gmeljhun20@gmail.com
+
+
+	Date of creation or last modification.
+
+1. april 29 2024 and the last modification is May 16 2024
+
+	Brief overview of the file's contents.
+
+Features:
+Admin
+Manages User
+Attendance of students
+Manage Students
+Manage Courses
+Manage Departments
+Manage users
+Print Report
+Student
+
+Check Attendance  
+It seems like you're describing a file or system for managing student information and attendance. Here's a brief overview:
+
+The file likely contains features for both administrators and students. For administrators, it includes functionalities such as:
+
+Managing users: likely involves creating, modifying, and deleting user accounts, possibly including different permission levels.
+Managing students: handling student records, such as adding new students, updating their information, or removing them.
+Managing courses: organizing and updating course information, possibly including adding new courses, editing existing ones, or removing courses.
+Managing departments: overseeing different academic departments within an institution, including tasks like adding new departments, updating information, or removing obsolete ones.
+Attendance management: likely involves recording and tracking student attendance, possibly including features for taking attendance, generating reports, and monitoring attendance trends.
+Printing reports: generating various reports related to student information, attendance records, course details, or departmental statistics.
+For students, the features are likely more focused on accessing their own information and managing their attendance:
+
+Checking attendance: allowing students to view their own attendance records, possibly including features for checking attendance for specific classes or time periods.
+Overall, this system appears to be designed to streamline administrative tasks related to managing student information, courses, and attendance records, while also providing students with convenient access to their attendance data.   
+
+Function/Method Comments: Document each function or method with:
+	Description of its purpose.
+
+attendance: this document will the student make there attendance for there time in and out
+course: this document will can edit the administrator or add a course for the student
+department: this document the administrator can edit the department or add a department/namecollege for the student
+student:this document the administrator can edit the student student info or add a student  there basic info and course and department.
+user: this is the account of the administrator info like name.
+home: the home that you can show the attendance,course,department,report,student, and log out
+
+ manage_users():
+    """
+    Manages user accounts within the system.
+    
+    Parameters:
+        None
+    
+    Expected behavior:
+        Allows administrators to create, update, or delete user accounts.
+        Administrators can assign different permission levels to users, controlling their access to system features.
+    
+    Return values:
+        None
+    """
+
+ manage_students():
+    """
+    Manages student records within the system.
+    
+    Parameters:
+        None
+    
+    Expected behavior:
+        Enables administrators to add new students, update their information, or remove them from the system.
+        It may also include features for organizing students into different classes or programs.
+    
+    Return values:
+        None
+    """
+
+ manage_courses():
+    """
+    Manages course information within the system.
+    
+    Parameters:
+        None
+    
+    Expected behavior:
+        Allows administrators to add new courses, update existing course details, or remove courses from the system.
+        Administrators may also use this function to assign instructors to courses or specify course schedules.
+    
+    Return values:
+        None
+    """
+
+ manage_departments():
+    """
+    Manages academic departments within the institution.
+    
+    Parameters:
+        None
+    
+    Expected behavior:
+        Enables administrators to add new departments, update departmental information, or remove obsolete departments.
+        It may also involve assigning faculty members to departments or managing departmental budgets.
+    
+    Return values:
+        None
+    """
+
+ manage_attendance():
+    """
+    Manages student attendance records.
+    
+    Parameters:
+        None
+    
+    Expected behavior:
+        Provides administrators with tools for recording and tracking student attendance.
+        It may include features for taking attendance, generating attendance reports, or analyzing attendance trends.
+    
+    Return values:
+        None
+    """
+
+ print_reports():
+    """
+    Prints various reports related to student information and attendance.
+    
+    Parameters:
+        None
+    
+    Expected behavior:
+        Generates reports based on data stored within the system, such as student records, course details, or attendance statistics.
+        Administrators can specify parameters for the reports, such as time periods or specific data fields to include.
+    
+    Return values:
+        None
+    """
+
+ check_attendance(student_id):
+    """
+    Checks attendance records for a specific student.
+    
+    Parameters:
+        student_id (int): The unique identifier of the student.
+    
+    Expected behavior:
+        Allows students to view their own attendance records within the system.
+        Students provide their unique student ID as input to retrieve their attendance history.
+    
+    Return values:
+        attendance_records (list): A list containing attendance records for the specified student.
+    """
+
+    
+
